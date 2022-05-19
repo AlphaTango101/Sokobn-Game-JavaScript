@@ -1,0 +1,27 @@
+#container {
+    width: 1850px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50px);
+}
+
+body > div > div {
+    background-color: brown;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.orange {
+    background-color: darkorange;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: cadetblue;
+}
